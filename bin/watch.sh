@@ -1,3 +1,3 @@
 #!/bin/sh
 
-chokidar "**/*.md" "**/*.yaml" "**/*.js" "**/*.twig" -c "./bin/build.sh"
+chokidar "public/**" "**/*.md" "**/*.yaml" "**/*.js" "**/*.twig" -c "./bin/build.sh"
