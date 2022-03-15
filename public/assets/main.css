@@ -29,3 +29,7 @@ article {
 .bc-sep {
 	color: #fff;
 }
+
+pre {
+	overflow-x: auto;
+}
