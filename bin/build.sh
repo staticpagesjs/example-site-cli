@@ -1,7 +1,5 @@
 #!/bin/sh
 
-DIR="$( cd "$( dirname "$0" )" && pwd )"
-
-$DIR/clean.sh
-$DIR/generate.sh
-$DIR/copy-public.sh
+./bin/clean.sh
+./bin/generate.sh
+./bin/copy-public.sh
