@@ -1,0 +1,6 @@
+site:
+  title: StaticPagesJS Example Site
+
+generator:
+  name: StaticPagesJS
+  url: https://staticpagesjs.github.io/

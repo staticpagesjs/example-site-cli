@@ -1,0 +1,18 @@
+body {
+	background-color: #222;
+	color: #aaa;
+}
+
+a {
+	color: #fff;
+}
+
+nav {
+	width: 25%;
+	float: left;
+}
+
+article {
+	width: 75%;
+	float: left;
+}
