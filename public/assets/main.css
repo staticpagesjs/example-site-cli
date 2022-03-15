@@ -1,6 +1,7 @@
 body {
 	background-color: #222;
 	color: #aaa;
+	font-family: Verdana, sans-serif;
 }
 
 a {
@@ -15,4 +16,16 @@ nav {
 article {
 	width: 75%;
 	float: left;
+}
+
+#breadcrumbs {
+	font-family: 'Courier New', monospace;
+}
+
+.bc-component {
+	font-style: italic;
+}
+
+.bc-sep {
+	color: #fff;
 }
