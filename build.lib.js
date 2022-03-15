@@ -4,10 +4,10 @@ const childProcess = require('child_process');
 const yaml = require('js-yaml');
 
 // git utility to add git commit hash and working dir to build globals
-const git = (...args) => childProcess.spawnSync('git', args).stdout.toString().trim();
+const git = (...args) => childProcess.spawnSync('git', args)?.stdout?.toString?.()?.trim?.() ?? '';
 const getGitCommitHash = () => git('rev-parse', 'HEAD');
 const getGitBaseDir = () => git('rev-parse', '--show-toplevel');
-const isGitInstalled = git().trim().startsWith('usage:');
+const isGitInstalled = git('--help').trim().startsWith('usage:');
 const isGitProject = !getGitCommitHash().trim().startsWith('fatal:');
 
 // used by custom json/yaml filters
