@@ -1,3 +1,19 @@
+// This example script uses the static-pages command line tool with
+// markdown-reader and twig-writer to generate the pages.
+//
+// Functionality written below are:
+//   1. generate breadcrumbs based on the page url
+//   2. get git commit hash and git root dir when git found
+//   3. build navigation tree from the pages
+//   4. provide a 'json' filter to twig to encode object in json
+//   5. provide a 'yaml' filter to twig to encode object to yaml
+//   6. provide an 'url' function which creates a relative link from
+//      the actual page url to the desired resource
+//   7. load twig globals from a globals.yaml file
+//   8. provide a basic 'trans' filter for twig that can
+//      translate texts based on a lang attribute in context and
+//      translations defined in the messages directory
+
 const fs = require('fs');
 const path = require('path');
 const childProcess = require('child_process');
