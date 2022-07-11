@@ -1,8 +1,7 @@
 ---
 lang: en
 title: A sample content page
-output:
-  url: folderC/pageC
+url: folderC/pageC
 ---
 **folderA/PageA** content which should be generated to **folderC/pageC** url.
 

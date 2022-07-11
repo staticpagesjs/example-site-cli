@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@static-pages/markdown-reader": "^1.1.1",
+    "@static-pages/twig-writer": "^3.0.1",
+    "@static-pages/yaml-reader": "^1.1.0",
+    "js-yaml": "^4.1.0"
+  }
+}

@@ -1,7 +1,6 @@
 ---
 lang: en
 title: Hello World
-output:
-  url: index
+url: index
 ---
 This is my hello world page!

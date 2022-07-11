@@ -38,8 +38,7 @@ const replacer = (key, value) => {
 // makes an url for the provided page as the twig-writer default outFile() would do.
 const urlFromContext = context => {
 	const page = replacer(null, context); // converts twig context to plain object using the json/yaml replacer
-	return page?.output?.path
-		?? page?.output?.url?.concat?.('.html')
+	return page?.url?.concat?.('.html')
 		?? page?.header?.path?.replace?.(/\.[^.]+$/g, '.html');
 };
 
