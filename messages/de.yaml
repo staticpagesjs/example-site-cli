@@ -1,17 +1,17 @@
-# page
-'StaticPagesJS Example Site': StaticPagesJS-Beispiel-Site
+site:
+  title: StaticPagesJS-Beispiel-Site
 
-# sidebar navigation
-Index: Liste der Seiten
+sidebar:
+  index: Liste der Seiten
 
-# breadcrumbs
-Home: Startseite
-trans: Übersetzungen
-folderA: Ordner "A"
-folderB: Ordner "B"
-folderC: Ordner "C"
-'A sample content page': Beispiel A Inhaltsseite
-'B sample content page': Beispiel B Inhaltsseite
-'Page en français': Französischsprachige Seite
-'Magyar nyelvű oldal': Seite in ungarischer Sprache
-Pear: Birne
+breadcrumbs:
+  home: Startseite
+  trans: Übersetzungen
+  folderA: Ordner "A"
+  folderB: Ordner "B"
+  folderC: Ordner "C"
+  'A sample content page': Beispiel A Inhaltsseite
+  'B sample content page': Beispiel B Inhaltsseite
+  'Page en français': Französischsprachige Seite
+  'Magyar nyelvű oldal': Seite in ungarischer Sprache
+  Pear: Birne

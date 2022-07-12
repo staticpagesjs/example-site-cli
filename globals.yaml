@@ -1,6 +1,4 @@
-site:
-  title: StaticPagesJS Example Site
-
+# used in main.twig footer
 generator:
   name: StaticPagesJS
   url: https://staticpagesjs.github.io/

@@ -1,18 +1,18 @@
-# page
-'StaticPagesJS Example Site': StaticPagesJS mintaoldalak
+site:
+  title: StaticPagesJS mintaoldalak
 
-# sidebar navigation
-Index: Oldalak listája
+sidebar:
+  index: Oldalak listája
 
-# breadcrumbs
-Home: Nyitólap
-trans: Fordítások
-folderA: Mappa "A"
-folderB: Mappa "B"
-folderC: Mappa "C"
-'A sample content page': '"A" minta tartalmi oldal'
-'B sample content page': '"B" minta tartalmi oldal'
-'Page en français': Francia nyelvű oldal
-'Deutschsprachige Seite': Német nyelvű oldal
-Zucchini: Cukkini
-Pear: Körte
+breadcrumbs:
+  home: Nyitólap
+  trans: Fordítások
+  folderA: Mappa "A"
+  folderB: Mappa "B"
+  folderC: Mappa "C"
+  'A sample content page': '"A" minta tartalmi oldal'
+  'B sample content page': '"B" minta tartalmi oldal'
+  'Page en français': Francia nyelvű oldal
+  'Deutschsprachige Seite': Német nyelvű oldal
+  Zucchini: Cukkini
+  Pear: Körte

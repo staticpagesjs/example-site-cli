@@ -1,6 +1,18 @@
-Index: List of pages
+site:
+  title: StaticPagesJS sample pages
 
-trans: Translations
-folderA: Folder "A"
-folderB: Folder "B"
-folderC: Folder "C"
+sidebar:
+  index: List of pages
+
+breadcrumbs:
+  home: Home
+  trans: Translations
+  folderA: Folder "A"
+  folderB: Folder "B"
+  folderC: Folder "C"
+  'A sample content page': 'A sample content page'
+  'B sample content page': 'B sample content page'
+  'Page en français': French page
+  'Deutschsprachige Seite': German page
+  Zucchini: Zucchini
+  Pear: Pear

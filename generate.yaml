@@ -1,0 +1,14 @@
+from: ./lib/pages.js
+to:
+  module: '@static-pages/twig-writer'
+  args:
+    globals:import:
+        module: ./lib/twig-utils.js
+        export: globals
+    functions:import:
+        module: ./lib/twig-utils.js
+        export: functions
+    filters:import:
+        module: ./lib/twig-utils.js
+        export: filters
+controller: ./lib/controller.js

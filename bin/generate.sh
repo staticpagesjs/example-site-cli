@@ -1,3 +1,3 @@
 #!/bin/sh
 
-staticpages --config build.config.yaml
+staticpages --config generate.yaml

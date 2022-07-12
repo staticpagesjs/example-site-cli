@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "build": "staticpages --config generate.yaml"
+  },
   "dependencies": {
+    "@static-pages/cli": "^3.0.1",
     "@static-pages/markdown-reader": "^1.1.1",
     "@static-pages/twig-writer": "^3.0.1",
     "@static-pages/yaml-reader": "^1.1.0",
